@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  border: 1px solid black;
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./images/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: black;
+  text-shadow: 10px 30px 2px  white;
+}
+.lv1, .lv2, .lv3, .lv4{
+  width: 50%;
+  height: 50%;
+ 
+}
+.lv1{
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.lv2{
+  background-color:rgba(0, 0, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.lv3{
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-image: linear-gradient(
+    120deg,
+    rgba(8, 8, 252, 0.3),
+    rgba(255, 255, 0, 0.3)
+
+  );
+}
+
+.lv4{
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(0, 0, 0, 0.2)
+  );
+  background-size: 30px ;
+}
